@@ -46,6 +46,15 @@ public class PlayerInteract : MonoBehaviour
                     interactLabel.SetActive(true);
                     interactLabel.GetComponent<TextMeshProUGUI>().text = "Left Click to put on pan";
                 }
+
+                //If looking at pot and not holding something, display ingredients 
+                if(hitObject.GetComponent<Outline>() != null && hitObject.GetComponent<PotLogic>() != null && !hasInteracted && !isHoldingSomething)
+                {
+                    hitInfo.collider.gameObject.GetComponent<Outline>().enabled = true;
+                    currentHit = hitInfo.collider.gameObject;
+                    interactLabel.SetActive(true);
+                    interactLabel.GetComponent<TextMeshProUGUI>().text = currentHit.GetComponent<PotLogic>().currentIngredients;
+                }
             }
 
             if (currentHit != null && hitObject.GetComponent<BaseHoldable>() == null && hitObject.GetComponent<PotLogic>() == null)
@@ -56,7 +65,7 @@ public class PlayerInteract : MonoBehaviour
                 interactLabel.SetActive(false);
             }
 
-            if (currentHit != null && hitObject.GetComponent<PotLogic>() != null && !isHoldingSomething)
+            if (currentHit != null && hitObject.GetComponent<PotLogic>() != null && !isHoldingSomething && hasInteracted)
             {
                 currentHit.GetComponent<Outline>().enabled = false;
                 currentHit = null;

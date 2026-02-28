@@ -852,6 +852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PotLogic
   ingredientsInPot: []
+  currentIngredients: 
 --- !u!65 &1649701320
 BoxCollider:
   m_ObjectHideFlags: 0
