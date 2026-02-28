@@ -35,6 +35,7 @@ public class PlayerInteract : MonoBehaviour
                 {
                     hitInfo.collider.gameObject.GetComponent<Outline>().enabled = true;
                     currentHit = hitInfo.collider.gameObject;
+                    interactLabel.SetActive(true);
                     interactLabel.GetComponent<TextMeshProUGUI>().text = currentHit.gameObject.transform.root.GetComponent<BaseHoldable>().name;
                 }
             }
@@ -45,12 +46,14 @@ public class PlayerInteract : MonoBehaviour
                 currentHit.GetComponent<Outline>().enabled = false;
                 currentHit = null;
                 hasInteracted = false;
+                interactLabel.SetActive(false);
             }
 
             //click to interact
             if (GetComponent<PlayerInput>().actions["Interact"].triggered && hitObject.GetComponent<BaseHoldable>() != null)
             {
                 Debug.Log("You interacted with: " + hitObject.name);
+                
                 hitInfo.collider.gameObject.GetComponent<Outline>().enabled = false;
                 hasInteracted = true;
                 interactLabel.SetActive(false);
