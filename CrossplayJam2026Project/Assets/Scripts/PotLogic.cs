@@ -7,7 +7,7 @@ using UnityEngine;
 public class PotLogic : MonoBehaviour
 {
     public List<string> ingredientsInPot = new List<string>();
-    private List<string> correctIngredientList = new List<string> {"Hand", "Pepper", "Salt"}; 
+    private List<string> correctIngredientList = new List<string> {"Eggs", "Goldfish", "Onions", "Pepper"}; 
 
     // [SerializeField] BaseHoldable tempObjectToAdd;
     // [SerializeField] BaseHoldable tempObjectToAddTwo;
