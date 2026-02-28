@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6164499151801078935
+--- !u!1001 &9048731685106549087
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4923853480188448301, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.8212075
+      value: -5.8171577
       objectReference: {fileID: 0}
     - target: {fileID: 4923853480188448301, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.107
+      value: 0.189
       objectReference: {fileID: 0}
     - target: {fileID: 4923853480188448301, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.5109234
+      value: -9.025351
       objectReference: {fileID: 0}
     - target: {fileID: 4923853480188448301, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_LocalRotation.w
@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6616751924642177417, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_Name
-      value: Bacon
+      value: GoldFish
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

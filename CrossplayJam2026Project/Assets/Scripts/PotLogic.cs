@@ -11,7 +11,8 @@ public class PotLogic : MonoBehaviour
 
     private StringBuilder currentIngredientsSB = new StringBuilder("Current Ingredients:\n");
     public string currentIngredients = "Current Ingredients:\n"; 
-    private List<string> correctIngredientList = new List<string> {"Eggs", "Goldfish", "Onions", "Pepper"}; 
+    public bool canAddToPot = true;
+    private List<string> correctIngredientList = new List<string> {"Egg", "Goldfish", "Mushroom", "Onion", "Pepper"}; 
 
     // [SerializeField] BaseHoldable tempObjectToAdd;
     // [SerializeField] BaseHoldable tempObjectToAddTwo;
@@ -40,6 +41,10 @@ public class PotLogic : MonoBehaviour
     /// <returns>true if successfully added, false otherwise</returns>
     public bool AddToPotFromHoldable(BaseHoldable ingredientToAdd)
     {
+
+        if(!canAddToPot)
+            return false;
+
         string ingrName = ingredientToAdd.name;
 
         if(ingredientsInPot.Contains(ingrName))
@@ -86,8 +91,6 @@ public class PotLogic : MonoBehaviour
         
         for(int i = 0; i < correctIngredientList.Count; i++)
         {
-            //TODO: we still want something to happen when we try cooking 
-            //the "incorrect recipe, will be implemented
             if(ingredientsInPot[i] != correctIngredientList[i])
                 return false;
         }
