@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 
 
@@ -7,7 +8,10 @@ using UnityEngine;
 public class PotLogic : MonoBehaviour
 {
     public List<string> ingredientsInPot = new List<string>();
-    private List<string> correctIngredientList = new List<string> {"Hand", "Pepper", "Salt"}; 
+
+    private StringBuilder currentIngredientsSB = new StringBuilder("Current Ingredients:\n");
+    public string currentIngredients = "Current Ingredients:\n"; 
+    private List<string> correctIngredientList = new List<string> {"Eggs", "Goldfish", "Onions", "Pepper"}; 
 
     // [SerializeField] BaseHoldable tempObjectToAdd;
     // [SerializeField] BaseHoldable tempObjectToAddTwo;
@@ -30,6 +34,7 @@ public class PotLogic : MonoBehaviour
     /// <summary>
     /// Takes in an object of type BaseHoldable. Appends its name field to ingredientsInPot.
     /// Does not allow duplicate names. Sorts the list immediately after appending.
+    /// Appends to currentIngredientsSB StringBuilder, sets currentIngredient.
     /// </summary>
     /// <param name="ingredientToAdd"> object of type BaseHoldable to append to list</param>
     /// <returns>true if successfully added, false otherwise</returns>
@@ -39,14 +44,13 @@ public class PotLogic : MonoBehaviour
 
         if(ingredientsInPot.Contains(ingrName))
         {
-            //Display "Cannot add Duplicates"
             return false;
         }
         else
         {
-            //Display added to pot
-            //Make player isHolding false, remove from held hand
             ingredientsInPot.Add(ingrName);
+            currentIngredientsSB.Append(ingrName + "\n");
+            currentIngredients = currentIngredientsSB.ToString();
         }
 
         ingredientsInPot.Sort();
@@ -82,6 +86,8 @@ public class PotLogic : MonoBehaviour
         
         for(int i = 0; i < correctIngredientList.Count; i++)
         {
+            //TODO: we still want something to happen when we try cooking 
+            //the "incorrect recipe, will be implemented
             if(ingredientsInPot[i] != correctIngredientList[i])
                 return false;
         }
