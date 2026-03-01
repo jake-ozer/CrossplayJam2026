@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
+using NUnit.Framework;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -56,6 +58,15 @@ public class PlayerInteract : MonoBehaviour
                     interactLabel.GetComponent<TextMeshProUGUI>().text = currentHit.GetComponent<PotLogic>().currentIngredients;
                 }
 
+                //outline for place button
+                if(hitObject.GetComponent<Outline>() != null && hitObject.GetComponent<PlaceOmeletteLogic>() != null && !hasInteracted && isHoldingSomething && GetComponent<PlayerHolding>().objectPlayerIsHolding.GetComponent<BaseHoldable>().isOmelette)
+                {
+                    hitInfo.collider.gameObject.GetComponent<Outline>().enabled = true;
+                    currentHit = hitInfo.collider.gameObject;
+                    interactLabel.SetActive(true);
+                    interactLabel.GetComponent<TextMeshProUGUI>().text = "Left Click to Place Omelette";               
+                }
+
                 //Set outline for the "cook button"
                 if(hitObject.GetComponent<Outline>() != null && hitObject.GetComponent<CookLogic>() != null && !hasInteracted && !isHoldingSomething)
                 {
@@ -67,7 +78,7 @@ public class PlayerInteract : MonoBehaviour
             }
 
             //Add to this if statement whenever we need to check for a new interactable is added
-            if (currentHit != null && hitObject.GetComponent<BaseHoldable>() == null && hitObject.GetComponent<PotLogic>() == null && hitObject.GetComponent<CookLogic>() == null)
+            if (currentHit != null && hitObject.GetComponent<BaseHoldable>() == null && hitObject.GetComponent<PotLogic>() == null && hitObject.GetComponent<CookLogic>() == null && hitObject.GetComponent<PlaceOmeletteLogic>() == null)
             {
                 currentHit.GetComponent<Outline>().enabled = false;
                 currentHit = null;
@@ -85,6 +96,15 @@ public class PlayerInteract : MonoBehaviour
 
             //Unset outline for "cook button"
             if(currentHit != null && hitObject.GetComponent<CookLogic>() != null && !isHoldingSomething && hasInteracted)
+            {
+                currentHit.GetComponent<Outline>().enabled = false;
+                currentHit = null;
+                hasInteracted = false;
+                interactLabel.SetActive(false);
+            }
+
+            //unset outline for place button
+            if(currentHit != null && hitObject.GetComponent<PlaceOmeletteLogic>() != null && !isHoldingSomething && hasInteracted)
             {
                 currentHit.GetComponent<Outline>().enabled = false;
                 currentHit = null;
@@ -126,6 +146,17 @@ public class PlayerInteract : MonoBehaviour
                 interactLabel.SetActive(false);
 
                 hitInfo.collider.gameObject.GetComponent<CookLogic>().CookTheOmelette();
+            }
+
+            //place an omelette
+            if(GetComponent<PlayerInput>().actions["Interact"].triggered && hitObject.GetComponent<PlaceOmeletteLogic>() != null && isHoldingSomething && GetComponent<PlayerHolding>().objectPlayerIsHolding.GetComponent<BaseHoldable>().isOmelette)
+            {
+                Debug.Log("Placed a omelette for grandma");
+                hitInfo.collider.gameObject.GetComponent<Outline>().enabled = false;
+                hasInteracted = true;
+                interactLabel.SetActive(false);
+
+                hitInfo.collider.gameObject.GetComponent<PlaceOmeletteLogic>().OmelettePlace(GetComponent<PlayerHolding>().objectPlayerIsHolding.GetComponent<BaseHoldable>());
             }
         }
     }
