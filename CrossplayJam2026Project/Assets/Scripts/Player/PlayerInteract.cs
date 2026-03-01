@@ -38,7 +38,14 @@ public class PlayerInteract : MonoBehaviour
                     hitInfo.collider.gameObject.GetComponent<Outline>().enabled = true;
                     currentHit = hitInfo.collider.gameObject;
                     interactLabel.SetActive(true);
-                    interactLabel.GetComponent<TextMeshProUGUI>().text = currentHit.gameObject.GetComponentInParent<BaseHoldable>().holdableName;
+                    if(currentHit.gameObject.GetComponentInParent<BaseHoldable>().isFish)
+                    {
+                        interactLabel.GetComponent<TextMeshProUGUI>().text = "Left Click to feed " + currentHit.gameObject.GetComponentInParent<BaseHoldable>().holdableName;
+                    }
+                    else
+                    {
+                        interactLabel.GetComponent<TextMeshProUGUI>().text = currentHit.gameObject.GetComponentInParent<BaseHoldable>().holdableName;  
+                    }
                 }
 
                 if (hitObject.GetComponent<Outline>() != null && hitObject.GetComponent<PotLogic>() != null && !hasInteracted && isHoldingSomething && hitObject.GetComponent<PotLogic>().canAddToPot)
@@ -120,9 +127,18 @@ public class PlayerInteract : MonoBehaviour
                 hasInteracted = true;
                 interactLabel.SetActive(false);
 
-                hitInfo.collider.gameObject.GetComponent<MeshCollider>().enabled = false;
-                hitInfo.collider.gameObject.transform.GetChild(0).gameObject.SetActive(false);
-                GetComponent<PlayerHolding>().objectPlayerIsHolding = hitInfo.collider.gameObject;
+
+                if(currentHit.gameObject.GetComponentInParent<BaseHoldable>().isFish)
+                {
+                    Debug.Log("Fish is fed");
+                }
+                else
+                {
+                    hitInfo.collider.gameObject.GetComponent<MeshCollider>().enabled = false;
+                    hitInfo.collider.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+                    GetComponent<PlayerHolding>().objectPlayerIsHolding = hitInfo.collider.gameObject;
+                }
+                
             }
 
             if (GetComponent<PlayerInput>().actions["Interact"].triggered && hitObject.GetComponent<PotLogic>() != null && isHoldingSomething)
