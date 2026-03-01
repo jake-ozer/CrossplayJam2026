@@ -59,6 +59,15 @@ public class PotLogic : MonoBehaviour
         }
 
         ingredientsInPot.Sort();
+
+
+        //If pot contains the four correct ingredients (egg, pepper, mushroom, Onion), inititate cutscene
+        if (ingredientsInPot.Contains("Egg") && ingredientsInPot.Contains("Pepper") && 
+            ingredientsInPot.Contains("Mushroom") && ingredientsInPot.Contains("Onion"))
+        {
+            //play custscene
+        }
+
         return true;
     }
 

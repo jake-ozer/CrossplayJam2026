@@ -187,7 +187,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.8724, y: -475}
+  m_AnchoredPosition: {x: 15, y: -475}
   m_SizeDelta: {x: 1887.4783, y: 194.8418}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &736203741956852058
@@ -220,8 +220,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'You are holding: nothing'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2023346b3dcc12542b6bfd87fb16f23f, type: 2}
+  m_sharedMaterial: {fileID: -405780775346750139, guid: 2023346b3dcc12542b6bfd87fb16f23f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -550,7 +550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -37}
+  m_AnchoredPosition: {x: 0, y: -47}
   m_SizeDelta: {x: 962.1678, y: 143.8788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7982019527552530723
@@ -583,8 +583,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Interact Label
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2023346b3dcc12542b6bfd87fb16f23f, type: 2}
+  m_sharedMaterial: {fileID: -405780775346750139, guid: 2023346b3dcc12542b6bfd87fb16f23f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -784,7 +784,7 @@ RectTransform:
   m_GameObject: {fileID: 8638318621299116316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6678320515644211092}
