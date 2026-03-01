@@ -8,6 +8,8 @@ public class BaseHoldable : MonoBehaviour
 
     public bool isOmelette;
     public bool correctOmelette;
+
+    public bool isFish;
     //o.o
 
 }

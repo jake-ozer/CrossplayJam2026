@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FishInformation : MonoBehaviour
 {
@@ -36,6 +37,6 @@ public class FishInformation : MonoBehaviour
 
     private void LoadScene()
     {
-        
+        SceneManager.LoadScene(1);
     }
 }
