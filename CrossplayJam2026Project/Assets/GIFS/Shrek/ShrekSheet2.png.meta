@@ -1,0 +1,1959 @@
+fileFormatVersion: 2
+guid: be049a3ec6033a64ca0a4f3c33ee8985
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShrekSheet2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d871c7477a0d0f428cbe1cfabf5e2ba
+      internalID: 765280402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_1
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb2a98603675284aa1dd0f64d2d5f34
+      internalID: -37255828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_2
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982a836e40f22cc4f81b0753968c04ba
+      internalID: -2036869789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_3
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db44e42851d4b34eab10ece30f1e371
+      internalID: -878687517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_4
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2533f7ecf10b06c40bf26ddd8a18f665
+      internalID: 1721526949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_5
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2875a2f262dab4192f320f218e34af
+      internalID: -894887605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_6
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879ae70eb9ec0d6419659503e7b19969
+      internalID: -2145858752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_7
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d9e07ce20a0984db39c29601612825
+      internalID: -1436618258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_8
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea16fc0a470e5344a71d785724ef2a3
+      internalID: -2122339301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_9
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e01db070367314bac5bcb8b49ef4a7
+      internalID: -1654135832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_10
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dc225597719e54ca4bcf69275480d7
+      internalID: 1958712206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_11
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a70ca0af01a70648962fef58c45a7cb
+      internalID: 1820897796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_12
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e5ab8a4a70cda42819389d6164038f
+      internalID: 1303635989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_13
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745c0026ca65a2140b5299f0ec81ebf4
+      internalID: -623507599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_14
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b32aaf5e1cd11a42ab54f1e381cb62b
+      internalID: -1937143838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_15
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84035cb095ccb95409ce79b226e2f26f
+      internalID: -892703829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_16
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c9491ed1cbdd84ebe115146485b244
+      internalID: 103064044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_17
+      rect:
+        serializedVersion: 2
+        x: 9180
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd55dccf8b57d43408256b3d3fa530f5
+      internalID: 1602688208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_18
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db259ddca49a3044afeb4f05410a141
+      internalID: 1372188444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_19
+      rect:
+        serializedVersion: 2
+        x: 10260
+        y: 1122
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab07814ee2fe0bf4d8d80ea645c048fb
+      internalID: -1202158727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170e55debc261854b9cb13232fc4f5a0
+      internalID: -988210733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_21
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40a153fb3d128c478b97cda1c4e1869
+      internalID: 2051253755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_22
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7826faac2c29b9442871de5d6986e19e
+      internalID: 1084308749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_23
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ba63778a8b0634bac5704c838ab355
+      internalID: 1829191848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_24
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b7baab16d669f439b7d4b32c2316bf
+      internalID: -465065650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_25
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6353642910a04a14ca28abd6793c5015
+      internalID: 1421926660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_26
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b0bc231d44dfa4d9a7962a31bc10a0
+      internalID: -925196828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_27
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a169087f079129044a37560ba764dcf2
+      internalID: -649833220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_28
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa20df6273978d44ad17fe032f5830d
+      internalID: 823530039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_29
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cca4db7789b48c4c9e1b4037660912d
+      internalID: 513177977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_30
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21d8a064b12e0c46bf49696f03a9e9b
+      internalID: -1886230071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_31
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2477acd9608973147a5ac8e8cb08c85c
+      internalID: -1514168397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_32
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5be438061374c478d43ffdbb586bb6
+      internalID: -436791520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_33
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396728c2079ad0e4a8a266c892c93111
+      internalID: -1381996748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_34
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc5496127b512643a1cd8ad91c37e97
+      internalID: -2125978471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_35
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29231dcc73e760c4ca0d4c4312d2ff53
+      internalID: 252355632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_36
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dc1dc69edf16b4e940f27164d2965a
+      internalID: -514627532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_37
+      rect:
+        serializedVersion: 2
+        x: 9180
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cd2bc58e6ac0c4abb5d4ee9e7665c4
+      internalID: -1482707513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_38
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161b1b541cf486045a4d9bd51569bc2a
+      internalID: 257275540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_39
+      rect:
+        serializedVersion: 2
+        x: 10260
+        y: 748
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c30d976f04e10a49811ee67ae0ae1a1
+      internalID: 309486814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7f3a23c95219548b490ba150bbbac2
+      internalID: 338092720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_41
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00445bc8be3d95b4295b2b22787e436c
+      internalID: 1098438110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_42
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78af70da83224047a15e17239e3837e
+      internalID: -958652532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_43
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77688a221971f646b263f49c654dfd0
+      internalID: -1629811854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_44
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a08b4c78e8586418c836145e534130
+      internalID: -1469605515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_45
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee41bc755501194a91c65a2fc595d20
+      internalID: 441935751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_46
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e139e8f4be665ad47a6ae8678b3aab2a
+      internalID: -648058770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_47
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f175d446a0c0440bfd9c9d23a9ddad
+      internalID: -709034731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_48
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959fadad2a02fab45ba5bc985e947522
+      internalID: 1254244883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_49
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5884bfb9792c6441bd44a7303388398
+      internalID: -957001053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_50
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3592852f583be5244845263a65a676e8
+      internalID: -750988576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_51
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6e761ab02d65f4dbf6738cb8c052de
+      internalID: 1710635680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_52
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def2b3f15f76e9d4ca73c12a140327d7
+      internalID: -854370015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_53
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1f878b9a32cf747b0a1573cb0ce4d9
+      internalID: 340605104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_54
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fddb6ddee1ccf34c8b171b41faffa8d
+      internalID: -861108202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_55
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f60048cb2c21748bc2797cc744f625
+      internalID: -201012172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_56
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6e43e9b7dd7614cbf4427bc1e361b2
+      internalID: -1133230338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_57
+      rect:
+        serializedVersion: 2
+        x: 9180
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33758a50a176fce44977a9459398a07e
+      internalID: 546807328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_58
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfe3b48f82694f468b686f678d75762
+      internalID: 2105265371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_59
+      rect:
+        serializedVersion: 2
+        x: 10260
+        y: 374
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c42b50c69356444a1a7eac8f68b95e
+      internalID: -1516075968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e1b6fc979e8944bad30479f7e118ff
+      internalID: 2141195513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_61
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1582ad4d9b2835f4baa3a25ad0f09e67
+      internalID: -786447362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_62
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02145c4b04b94c54e9826600975b631a
+      internalID: 305199263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_63
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609af168db40991439eff7d1fd0b6e7d
+      internalID: 1590279595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_64
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb0c1a67eb4d0342b2e0230f89367e1
+      internalID: -400211448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_65
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353b56f69ef358b4e9f8c90f8d09a2d9
+      internalID: 592197280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_66
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0b12fdaeadc55499f900173c04ae0e
+      internalID: 1147029440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_67
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80d9f0c709f4dd46b3d43f73ea6db96
+      internalID: -1844279448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_68
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614c3cf6530e7ac438b017787b37d31b
+      internalID: -535142261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_69
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da57e0b7e13a4ef49bcf11baad9e606b
+      internalID: 283182832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_70
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b25aacc84924324aac48357bed4dd3d
+      internalID: -94029016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_71
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f91f18c41bc3c4cacc3858a4b8b603
+      internalID: 451756263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_72
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4507e41f6e64e045b8af67e40728a78
+      internalID: -900878533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_73
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28602a9345930b142a4a9ba74f434493
+      internalID: -526749392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_74
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4757cbdf427082547bc0469cc5b28815
+      internalID: 1804742615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_75
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f34bff05773f804ea1c6a7e7013b984
+      internalID: -1317547140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_76
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c145aad4e6167c941979d6e39ba5f783
+      internalID: -973441226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_77
+      rect:
+        serializedVersion: 2
+        x: 9180
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c87f12a96b43041aa936bce93b8c98
+      internalID: -1361818014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_78
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2573868a8c89ac54d80ec76d747e1594
+      internalID: 1008476236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShrekSheet2_79
+      rect:
+        serializedVersion: 2
+        x: 10260
+        y: 0
+        width: 540
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e40d7fa8ac89b44a910a301b5e44d4
+      internalID: -1320272348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6948512f4c28bca4cb79a7f013be933b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":20.0,"y":4.0},"gridSpriteSize":{"x":540.0,"y":374.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ShrekSheet2_0: 765280402
+      ShrekSheet2_1: -37255828
+      ShrekSheet2_10: 1958712206
+      ShrekSheet2_11: 1820897796
+      ShrekSheet2_12: 1303635989
+      ShrekSheet2_13: -623507599
+      ShrekSheet2_14: -1937143838
+      ShrekSheet2_15: -892703829
+      ShrekSheet2_16: 103064044
+      ShrekSheet2_17: 1602688208
+      ShrekSheet2_18: 1372188444
+      ShrekSheet2_19: -1202158727
+      ShrekSheet2_2: -2036869789
+      ShrekSheet2_20: -988210733
+      ShrekSheet2_21: 2051253755
+      ShrekSheet2_22: 1084308749
+      ShrekSheet2_23: 1829191848
+      ShrekSheet2_24: -465065650
+      ShrekSheet2_25: 1421926660
+      ShrekSheet2_26: -925196828
+      ShrekSheet2_27: -649833220
+      ShrekSheet2_28: 823530039
+      ShrekSheet2_29: 513177977
+      ShrekSheet2_3: -878687517
+      ShrekSheet2_30: -1886230071
+      ShrekSheet2_31: -1514168397
+      ShrekSheet2_32: -436791520
+      ShrekSheet2_33: -1381996748
+      ShrekSheet2_34: -2125978471
+      ShrekSheet2_35: 252355632
+      ShrekSheet2_36: -514627532
+      ShrekSheet2_37: -1482707513
+      ShrekSheet2_38: 257275540
+      ShrekSheet2_39: 309486814
+      ShrekSheet2_4: 1721526949
+      ShrekSheet2_40: 338092720
+      ShrekSheet2_41: 1098438110
+      ShrekSheet2_42: -958652532
+      ShrekSheet2_43: -1629811854
+      ShrekSheet2_44: -1469605515
+      ShrekSheet2_45: 441935751
+      ShrekSheet2_46: -648058770
+      ShrekSheet2_47: -709034731
+      ShrekSheet2_48: 1254244883
+      ShrekSheet2_49: -957001053
+      ShrekSheet2_5: -894887605
+      ShrekSheet2_50: -750988576
+      ShrekSheet2_51: 1710635680
+      ShrekSheet2_52: -854370015
+      ShrekSheet2_53: 340605104
+      ShrekSheet2_54: -861108202
+      ShrekSheet2_55: -201012172
+      ShrekSheet2_56: -1133230338
+      ShrekSheet2_57: 546807328
+      ShrekSheet2_58: 2105265371
+      ShrekSheet2_59: -1516075968
+      ShrekSheet2_6: -2145858752
+      ShrekSheet2_60: 2141195513
+      ShrekSheet2_61: -786447362
+      ShrekSheet2_62: 305199263
+      ShrekSheet2_63: 1590279595
+      ShrekSheet2_64: -400211448
+      ShrekSheet2_65: 592197280
+      ShrekSheet2_66: 1147029440
+      ShrekSheet2_67: -1844279448
+      ShrekSheet2_68: -535142261
+      ShrekSheet2_69: 283182832
+      ShrekSheet2_7: -1436618258
+      ShrekSheet2_70: -94029016
+      ShrekSheet2_71: 451756263
+      ShrekSheet2_72: -900878533
+      ShrekSheet2_73: -526749392
+      ShrekSheet2_74: 1804742615
+      ShrekSheet2_75: -1317547140
+      ShrekSheet2_76: -973441226
+      ShrekSheet2_77: -1361818014
+      ShrekSheet2_78: 1008476236
+      ShrekSheet2_79: -1320272348
+      ShrekSheet2_8: -2122339301
+      ShrekSheet2_9: -1654135832
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
