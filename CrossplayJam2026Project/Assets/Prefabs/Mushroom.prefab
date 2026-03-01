@@ -106,6 +106,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4497234141828317326, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
+      propertyPath: holdableName
+      value: Mushroom
+      objectReference: {fileID: 0}
     - target: {fileID: 4923853480188448301, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2106433
@@ -120,15 +124,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4923853480188448301, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0068822
+      value: -5.045208
       objectReference: {fileID: 0}
     - target: {fileID: 4923853480188448301, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.31099
+      value: 0.144
       objectReference: {fileID: 0}
     - target: {fileID: 4923853480188448301, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.92883
+      value: -4.904132
       objectReference: {fileID: 0}
     - target: {fileID: 4923853480188448301, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_LocalRotation.w

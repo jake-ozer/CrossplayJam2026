@@ -32,6 +32,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.56733906
       objectReference: {fileID: 0}
+    - target: {fileID: 4497234141828317326, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
+      propertyPath: holdableName
+      value: Ham
+      objectReference: {fileID: 0}
     - target: {fileID: 4923853480188448301, guid: a9203b6bd108fe2468b57b4a8897ee88, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.5714073

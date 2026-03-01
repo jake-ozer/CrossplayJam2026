@@ -36,10 +36,10 @@ public class PlayerInteract : MonoBehaviour
                     hitInfo.collider.gameObject.GetComponent<Outline>().enabled = true;
                     currentHit = hitInfo.collider.gameObject;
                     interactLabel.SetActive(true);
-                    interactLabel.GetComponent<TextMeshProUGUI>().text = currentHit.gameObject.transform.root.GetComponent<BaseHoldable>().holdableName;
+                    interactLabel.GetComponent<TextMeshProUGUI>().text = currentHit.gameObject.GetComponentInParent<BaseHoldable>().holdableName;
                 }
 
-                if (hitObject.GetComponent<Outline>() != null && hitObject.GetComponent<PotLogic>() != null && !hasInteracted && isHoldingSomething)
+                if (hitObject.GetComponent<Outline>() != null && hitObject.GetComponent<PotLogic>() != null && !hasInteracted && isHoldingSomething && hitObject.GetComponent<PotLogic>().canAddToPot)
                 {
                     hitInfo.collider.gameObject.GetComponent<Outline>().enabled = true;
                     currentHit = hitInfo.collider.gameObject;
@@ -55,9 +55,19 @@ public class PlayerInteract : MonoBehaviour
                     interactLabel.SetActive(true);
                     interactLabel.GetComponent<TextMeshProUGUI>().text = currentHit.GetComponent<PotLogic>().currentIngredients;
                 }
+
+                //Set outline for the "cook button"
+                if(hitObject.GetComponent<Outline>() != null && hitObject.GetComponent<CookLogic>() != null && !hasInteracted && !isHoldingSomething)
+                {
+                    hitInfo.collider.gameObject.GetComponent<Outline>().enabled = true;
+                    currentHit = hitInfo.collider.gameObject;
+                    interactLabel.SetActive(true);
+                    interactLabel.GetComponent<TextMeshProUGUI>().text = "Left Click to Cook Omelette";
+                }
             }
 
-            if (currentHit != null && hitObject.GetComponent<BaseHoldable>() == null && hitObject.GetComponent<PotLogic>() == null)
+            //Add to this if statement whenever we need to check for a new interactable is added
+            if (currentHit != null && hitObject.GetComponent<BaseHoldable>() == null && hitObject.GetComponent<PotLogic>() == null && hitObject.GetComponent<CookLogic>() == null)
             {
                 currentHit.GetComponent<Outline>().enabled = false;
                 currentHit = null;
@@ -66,6 +76,15 @@ public class PlayerInteract : MonoBehaviour
             }
 
             if (currentHit != null && hitObject.GetComponent<PotLogic>() != null && !isHoldingSomething && hasInteracted)
+            {
+                currentHit.GetComponent<Outline>().enabled = false;
+                currentHit = null;
+                hasInteracted = false;
+                interactLabel.SetActive(false);
+            }
+
+            //Unset outline for "cook button"
+            if(currentHit != null && hitObject.GetComponent<CookLogic>() != null && !isHoldingSomething && hasInteracted)
             {
                 currentHit.GetComponent<Outline>().enabled = false;
                 currentHit = null;
@@ -96,6 +115,17 @@ public class PlayerInteract : MonoBehaviour
 
                 hitInfo.collider.gameObject.GetComponent<PotLogic>().AddToPotFromHoldable(GetComponent<PlayerHolding>().objectPlayerIsHolding.GetComponent<BaseHoldable>());
                 GetComponent<PlayerHolding>().DropItem();
+            }
+
+            if(GetComponent<PlayerInput>().actions["Interact"].triggered && hitObject.GetComponent<CookLogic>() != null && !isHoldingSomething)
+            {
+                Debug.Log("You interacted with: " + hitObject.name);
+
+                hitInfo.collider.gameObject.GetComponent<Outline>().enabled = false;
+                hasInteracted = true;
+                interactLabel.SetActive(false);
+
+                hitInfo.collider.gameObject.GetComponent<CookLogic>().CookTheOmelette();
             }
         }
     }
